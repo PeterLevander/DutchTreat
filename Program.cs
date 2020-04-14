@@ -11,6 +11,7 @@ namespace DutchTreat
 {
     public class Program
     {
+        
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
@@ -22,5 +23,8 @@ namespace DutchTreat
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
+        //Test
+        string wSture = "Tesing";
     }
 }
